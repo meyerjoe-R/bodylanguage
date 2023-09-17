@@ -3,7 +3,7 @@ from prompt import *
 from dotenv import load_dotenv
 import os
 
-load_dotenv('/home/josephmeyer/git/agi_house/.env')
+load_dotenv('/home/josephmeyer/git/bodylanguage/.env')
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def api_completion(text, model = "gpt-3.5-turbo"):
